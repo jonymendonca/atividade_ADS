@@ -1,0 +1,98 @@
+body {
+    background-color: #1C1C1C;
+    
+}
+
+h1 {
+    text-align: center;
+    color: palegreen;
+    margin-top: 5px;
+    font-family: "Poppins", "sans-serif";
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(52, 155, 52);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    animation: typing 4s steps(60) normal;
+    white-space: nowrap;
+    overflow: hidden;
+   
+}
+
+
+@keyframes typing {
+    from{ 
+        width: 0;
+    }
+    to {
+        width: 20em;
+    }
+}
+
+
+.paragrafo{
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: "Poppins", "sans-serif";
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.links{ 
+  padding-left: 90% ;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 5px;
+  text-shadow: 0px 1px 2px rgb(34, 30, 30);
+  transition: 300ms;
+}
+
+.fa-github{
+    float:right;
+    padding-right: 47px;
+}
+
+.links:hover {
+    transform: scale(102%, 113%);
+    transition: 300ms;
+    text-shadow: 0px 1px 2px rgb(34, 30, 30);
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+textarea{
+    display: flex;
+    background-color: #1C1C1C;
+    font-family: monospace;
+    color: palegreen;
+    height: 970px;
+    width: 750px;
+    margin-left: 20%;
+    animation: typingCaixa 4s steps(40) normal;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+
+
+@keyframes typingCaixa {
+    from{
+        height: 0;
+    }
+
+    to{
+        height:44em;
+    }
+}
